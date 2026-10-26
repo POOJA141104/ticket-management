@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+*/node_modules/
+*/*/node_modules/
+
+# Environment Variables & Secrets
+.env
+*.env
+.env*.local
+
+# Production Builds
+dist/
+*/dist/
+build/
+*/build/
+web-build/
+*/web-build/
+
+# Expo & Mobile builds
+.expo/
+*/.expo/
+expo-env.d.ts
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+/ios
+/android
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor files
+.vscode/
+.idea/
+.claude/
+.system_generated/
